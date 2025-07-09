@@ -29,4 +29,20 @@ This project explores the disabled population of India using Census 2011 data. T
 - Summary Report (PDF/DOCX)
 - Power BI dashboard - [View Dashboard](https://app.powerbi.com/links/0GDOlZnDvb?ctid=695626df-d117-4278-b37d-1252e4fd8b07&pbi_source=linkShare)
 
-## Project Structure
+### To Run on Google Colab:
+1. Open this notebook in Colab:  
+   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/shijin/EducationalDisparityDisabledPopulation-DataAnalysis_PythonSQLPowerBi/blob/main/DisabledPopulation-DataAnalysis.ipynb)
+
+2. Upload the dataset manually:  
+   - Click the file icon (left sidebar in Colab)
+   - Click **Upload**, then select `CleanedIndiaCensus2011.csv`  
+   *(or run the cell `from google.colab import files` to upload interactively)*
+
+3. Alternatively, replace the `read_csv()` line with a GitHub raw link:
+```python
+df = pd.read_csv('https://github.com/shijin/EducationalDisparityDisabledPopulation-DataAnalysis_PythonSQLPowerBi/blob/main/CleanedIndiaCensus2011.csv')
+```
+## Author
+
+* Shijin Ramesh | Data Analyst 
+
